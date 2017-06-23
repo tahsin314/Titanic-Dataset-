@@ -7,7 +7,7 @@ Pre-requisites:
 3. Scikit-Learn
 4. Pandas
 
-I used patsy's dmatrices function to shape and train over the given dataset. It works fine with sklearn, except for cross_validation() function. So I splitted the dataset randomly into train and test sets using scikit-learn's another built in function "train_test_split()"(80% for train and 20% for test data) for 100 times and took the mean value of accuracy.
+I used patsy's dmatrices function to shape and train over the given dataset. It works fine with sklearn, except for cross_validation() function. I splitted the dataset randomly into train and test sets using scikit-learn's another built in function "train_test_split()"(80% for train and 20% for test data).
 
 The algorithm achieved the score 0.7655
 
